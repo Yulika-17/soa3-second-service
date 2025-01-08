@@ -1,0 +1,14 @@
+server:
+  port: 8090
+
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Yulika-17/spring-config
+          default-label: main
+          clone-on-start: true
+          search-paths: '{application}'

@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: EUREKA-SERVER
+  cloud:
+    config:
+      uri: http://localhost:8090

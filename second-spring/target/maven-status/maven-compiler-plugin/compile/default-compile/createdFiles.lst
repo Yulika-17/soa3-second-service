@@ -1,0 +1,16 @@
+com\itmo\secondspring\SecondApplication.class
+com\itmo\secondspring\model\House.class
+com\itmo\secondspring\config\RestConfig.class
+com\itmo\secondspring\model\Flat.class
+com\itmo\secondspring\model\House$HouseBuilder.class
+com\itmo\secondspring\exception\NotFoundException.class
+com\itmo\secondspring\exception\InvalidQueryParameterException.class
+com\itmo\secondspring\config\RibbonConfig.class
+com\itmo\secondspring\exception\GlobalExceptionHandler.class
+com\itmo\secondspring\model\Flat$FlatBuilder.class
+com\itmo\secondspring\model\Coordinates$CoordinatesBuilder.class
+com\itmo\secondspring\exception\ErrorResponse.class
+com\itmo\secondspring\config\WebConfiguration.class
+com\itmo\secondspring\service\AgencyService.class
+com\itmo\secondspring\model\Coordinates.class
+com\itmo\secondspring\controller\AgencyController.class

@@ -1,15 +1,15 @@
-server:
-  ssl:
-    enabled: true
-    key-store: classpath:static/certificates/keystore.p12
-    key-store-password: paspas
-    key-store-type: PKCS12
-    key-alias: mycert
-
-trust:
-  store:
-    url: classpath:static/certificates/keystore.p12
-    password: paspas
+#server:
+#  ssl:
+#    enabled: true
+#    key-store: classpath:static/certificates/keystore.p12
+#    key-store-password: paspas
+#    key-store-type: PKCS12
+#    key-alias: mycert
+#
+#trust:
+#  store:
+#    url: classpath:static/certificates/keystore.p12
+#    password: paspas
 
 spring:
   application:
@@ -17,8 +17,4 @@ spring:
   cloud:
     config:
       uri: http://localhost:8090
-
-first-service:
-  url: ${FIRST_SERVICE_URL:https://localhost}
-  port: ${FIRST_SERVICE_PORT:23578}
 

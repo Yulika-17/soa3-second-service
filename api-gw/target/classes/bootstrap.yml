@@ -1,6 +1,6 @@
 spring:
   application:
-    name: SECOND-SERVICE
+    name: API-GATEWAY
   cloud:
     config:
       uri: http://localhost:8090
